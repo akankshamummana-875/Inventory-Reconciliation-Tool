@@ -1,0 +1,68 @@
+[
+  {
+    "name": "prod-web-srv-01",
+    "type": "Virtual Machine",
+    "ip_address": "192.168.1.10",
+    "environment": "Production",
+    "owner": "Web-Ops",
+    "os": "Ubuntu 22.04",
+    "cpu_cores": 4,
+    "memory_gb": 16,
+    "status": "running"
+  },
+  {
+    "name": "prod-db-pg-01",
+    "type": "Database",
+    "ip_address": "192.168.1.20",
+    "environment": "Production",
+    "owner": "DB-Ops",
+    "os": "RHEL 8.6",
+    "cpu_cores": 8,
+    "memory_gb": 32,
+    "status": "running"
+  },
+  {
+    "name": "staging-lb-01",
+    "type": "Load Balancer",
+    "ip_address": "192.168.2.15",
+    "environment": "Staging",
+    "owner": "Net-Ops",
+    "os": "Ubuntu 20.04",
+    "cpu_cores": 4,
+    "memory_gb": 8,
+    "status": "running"
+  },
+  {
+    "name": "prod-api-gateway",
+    "type": "API Gateway",
+    "ip_address": "192.168.1.41",
+    "environment": "Production",
+    "owner": "Web-Ops",
+    "os": "Alpine Linux",
+    "cpu_cores": 2,
+    "memory_gb": 4,
+    "status": "running"
+  },
+  {
+    "name": "dev-gitlab-runner",
+    "type": "CI-CD",
+    "ip_address": "192.168.3.15",
+    "environment": "Development",
+    "owner": "DevOps",
+    "os": "Ubuntu 22.04",
+    "cpu_cores": 4,
+    "memory_gb": 8,
+    "status": "stopped"
+  },
+  {
+    "name": "dev-sandbox-test-temp",
+    "type": "Virtual Machine",
+    "ip_address": "192.168.3.99",
+    "environment": "Development",
+    "owner": "Unknown",
+    "os": "Ubuntu 22.04",
+    "cpu_cores": 2,
+    "memory_gb": 4,
+    "status": "running"
+  }
+]

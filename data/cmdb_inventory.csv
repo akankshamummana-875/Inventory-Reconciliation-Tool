@@ -1,0 +1,7 @@
+asset_id,name,type,ip_address,environment,owner,os,cpu_cores,memory_gb,status
+SRV-001,prod-web-srv-01,Virtual Machine,192.168.1.10,Production,Web-Ops,Ubuntu 22.04,4,16,Active
+SRV-002,prod-db-postgres,Database,192.168.1.20,Production,DB-Ops,RHEL 8,8,32,Active
+SRV-003,staging-lb-01,Load Balancer,192.168.2.10,Staging,Net-Ops,Ubuntu 20.04,2,4,Active
+SRV-004,prod-cache-redis,Cache Server,192.168.1.30,Production,Web-Ops,Ubuntu 20.04,2,8,Active
+SRV-005,prod-api-gateway,API Gateway,192.168.1.40,Production,Web-Ops,Alpine Linux,2,4,Active
+SRV-006,dev-gitlab-runner,CI-CD,192.168.3.15,Development,DevOps,Ubuntu 22.04,4,8,Active

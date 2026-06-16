@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+secrets.toml
+
+# Reports and generated data
+!data/cmdb_inventory.csv
+!data/live_inventory.json
+*.log
+*.pdf
+!resumes/
+!resumes/*.pdf
